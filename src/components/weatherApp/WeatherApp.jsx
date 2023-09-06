@@ -113,9 +113,9 @@ const WeatherApp = () => {
             <img src={weatherIcon} alt="cloud" />
           </div>
 
-          {/* <div className="wlc-note"> */}
-          {/* Search your city and learn about its today's weather forcast! */}
-          {/* </div>  */}
+          <div className="wlc-note">
+            Search your city and learn about its today's weather forcast!
+          </div>
 
           <div className="copy-right">
             &copy; R10 {new Date().getFullYear()}
